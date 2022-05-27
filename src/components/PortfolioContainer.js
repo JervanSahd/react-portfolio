@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <p>Steve Snavely React Portfolio</p>
+      
 
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       

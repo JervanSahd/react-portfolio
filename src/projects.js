@@ -5,6 +5,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/men/51.jpg",
       alt: "men 51",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",
@@ -16,6 +17,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/men/35.jpg",
       alt: "men 35",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",
@@ -27,6 +29,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/men/22.jpg",
       alt: "men 22",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",
@@ -38,6 +41,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/women/77.jpg",
       alt: "woman 77",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",
@@ -49,6 +53,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/women/77.jpg",
       alt: "woman 77",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",
@@ -60,6 +65,7 @@ const projects = [
       large: "https://randomuser.me/api/portraits/women/40.jpg",
       alt: "woman 40",
     },
+    discription: "Amazing project",
     links: {
       github: "Github Repo",
       deployed: "Deployed site",

@@ -30,10 +30,11 @@ const projects = [
   {
     title: "JATE Text Editor",
     picture: {
-      image: "https://pure-temple-00574.herokuapp.com/assets/icons/icon_96x96.png",
+      image: "https://github.com/JervanSahd/react-portfolio/blob/main/src/assets/texteditor.png",
       alt: "jate text editor",
     },
-    discription: "A developer can create notes or code snippets with or without an internet connection and can reliably retrieve them for later use.",
+    discription:
+      "A developer can create notes or code snippets with or without an internet connection and can reliably retrieve them for later use.",
     links: {
       github: "https://github.com/JervanSahd/TextEditor",
       deployed: "https://pure-temple-00574.herokuapp.com/",
@@ -42,10 +43,12 @@ const projects = [
   {
     title: "Tech Blog",
     picture: {
-      image: "https://www.xaxis.com/wp-content/uploads/2019/10/Tech-Blog-Preview.png",
+      image:
+        "https://www.xaxis.com/wp-content/uploads/2019/10/Tech-Blog-Preview.png",
       alt: "tech blog",
     },
-    discription: "A CMS-style blog site for developers who writes about tech through published articles, blog posts, and thoughts and opinions",
+    discription:
+      "A CMS-style blog site for developers who writes about tech through published articles, blog posts, and thoughts and opinions",
     links: {
       github: "https://github.com/JervanSahd/model_view_controller",
       deployed: "https://tech-blog-gt.herokuapp.com/",
@@ -54,11 +57,13 @@ const projects = [
   {
     title: "Weather Dashboard",
     picture: {
-      image: "https://github.com/JervanSahd/weather-dashboard/raw/main/assets/images/06-server-side-apis-homework-demo.png",
+      image:
+        "https://github.com/JervanSahd/weather-dashboard/raw/main/assets/images/06-server-side-apis-homework-demo.png",
       alt: "weather dashboard",
     },
 
-    discription: "Travelers see the weather outlook for multiple cities so they can plan a trip accordingly.",
+    discription:
+      "Travelers see the weather outlook for multiple cities so they can plan a trip accordingly.",
     links: {
       github: "https://github.com/JervanSahd/weather-dashboard",
       deployed: "https://jervansahd.github.io/weather-dashboard/",
@@ -67,10 +72,12 @@ const projects = [
   {
     title: "Horiseon Social Solution",
     picture: {
-      image: "https://github.com/JervanSahd/ss_horiseon/raw/main/assets/images/horiseon-homework.png",
+      image:
+        "https://github.com/JervanSahd/ss_horiseon/raw/main/assets/images/horiseon-homework.png",
       alt: "horiseon social solution",
     },
-    discription: "Refactoring existing code to meet a set of accessibility standards for Horiseon Social Solution Services, Inc.",
+    discription:
+      "Refactoring existing code to meet a set of accessibility standards for Horiseon Social Solution Services, Inc.",
     links: {
       github: "https://github.com/JervanSahd/ss_horiseon",
       deployed: "https://jervansahd.github.io/ss_horiseon/",

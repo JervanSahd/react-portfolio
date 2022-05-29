@@ -52,28 +52,28 @@ const projects = [
     },
   },
   {
-    title: "Project 5",
+    title: "Weather Dashboard",
     picture: {
-      image: "https://randomuser.me/api/portraits/women/77.jpg",
-      alt: "woman 77",
+      image: "https://github.com/JervanSahd/weather-dashboard/raw/main/assets/images/06-server-side-apis-homework-demo.png",
+      alt: "weather dashboard",
     },
 
-    discription: "Amazing project",
+    discription: "Travelers see the weather outlook for multiple cities so they can plan a trip accordingly.",
     links: {
-      github: "Github Repo",
-      deployed: "Deployed site",
+      github: "https://github.com/JervanSahd/weather-dashboard",
+      deployed: "https://jervansahd.github.io/weather-dashboard/",
     },
   },
   {
-    title: "Project 6",
+    title: "Horiseon Social Solution",
     picture: {
-      image: "https://randomuser.me/api/portraits/women/40.jpg",
-      alt: "woman 40",
+      image: "https://github.com/JervanSahd/ss_horiseon/raw/main/assets/images/horiseon-homework.png",
+      alt: "horiseon social solution",
     },
-    discription: "Amazing project",
+    discription: "Refactoring existing code to meet a set of accessibility standards for Horiseon Social Solution Services, Inc.",
     links: {
-      github: "Github Repo",
-      deployed: "Deployed site",
+      github: "https://github.com/JervanSahd/ss_horiseon",
+      deployed: "https://jervansahd.github.io/ss_horiseon/",
     },
   },
 ];

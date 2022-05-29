@@ -1,5 +1,5 @@
 import React from "react";
-import resumeData from "../../resumeData";
+// import resumeData from "../../resumeData";
 import "./style.css";
 
 function Contact() {
@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <p> {`${resumeData.contact.location}`}</p>
         <p> {`${resumeData.contact.email}`}</p>
         <p>
@@ -21,7 +21,7 @@ function Contact() {
           {`${resumeData.contact.github.icon}`}
           {`${resumeData.contact.github.link}`}
         </p>
-      </div>
+      </div> */}
       <div>
         <form className="form">
           <input

@@ -11,15 +11,16 @@
 .column-about {
   float: left;
   padding: 10px;
-  height: 300px; 
+  height: 300px;
+  width: auto; 
 }
 
 .left {
-  width: 25%;
+  width: 50%;
 }
 
 .right {
-  width: 75%;
+  width: 50%;
 }
 
 .row:after {

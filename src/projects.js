@@ -1,32 +1,32 @@
 const projects = [
   {
-    title: "Project 1",
+    title: "Meal Planner",
     picture: {
-      large: "https://randomuser.me/api/portraits/men/51.jpg",
-      alt: "men 51",
+      image: "https://github.com/noahneville/Meal-Planner/raw/main/assets/images/background.jpeg",
+      alt: "hodlresource.com",
     },
-    discription: "Amazing project",
+    discription: "A personalized meal and wine planner for Date night and other special events.",
     links: {
-      github: "Github Repo",
-      deployed: "Deployed site",
+      github: "https://github.com/noahneville/Meal-Planner",
+      deployed: "https://noahneville.github.io/Meal-Planner/",
     },
   },
   {
     title: "Project 2",
     picture: {
-      large: "https://randomuser.me/api/portraits/men/35.jpg",
+      image: "https://randomuser.me/api/portraits/men/35.jpg",
       alt: "men 35",
     },
     discription: "Amazing project",
     links: {
-      github: "Github Repo",
+      github: "https://hodlresource.com/",
       deployed: "Deployed site",
     },
   },
   {
     title: "Project 3",
     picture: {
-      large: "https://randomuser.me/api/portraits/men/22.jpg",
+      image: "https://randomuser.me/api/portraits/men/22.jpg",
       alt: "men 22",
     },
     discription: "Amazing project",
@@ -38,7 +38,7 @@ const projects = [
   {
     title: "Project 4",
     picture: {
-      large: "https://randomuser.me/api/portraits/women/77.jpg",
+      image: "https://randomuser.me/api/portraits/women/77.jpg",
       alt: "woman 77",
     },
     discription: "Amazing project",
@@ -50,9 +50,10 @@ const projects = [
   {
     title: "Project 5",
     picture: {
-      large: "https://randomuser.me/api/portraits/women/77.jpg",
+      image: "https://randomuser.me/api/portraits/women/77.jpg",
       alt: "woman 77",
     },
+    
     discription: "Amazing project",
     links: {
       github: "Github Repo",
@@ -62,7 +63,7 @@ const projects = [
   {
     title: "Project 6",
     picture: {
-      large: "https://randomuser.me/api/portraits/women/40.jpg",
+      image: "https://randomuser.me/api/portraits/women/40.jpg",
       alt: "woman 40",
     },
     discription: "Amazing project",

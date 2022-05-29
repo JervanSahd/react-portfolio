@@ -14,8 +14,10 @@ const resumeData = [
         link: "https://github.com/JervanSahd",
       },
     },
-    summary:
-      "Returning worker transitioning to full stack development providing problem solving, leadership, entrepreneurial, creative thinking and customer experience. A current boot camp certificate and a Bachelors IT degree prepared a skillset geared toward front end and back end development.",
+    summary:{
+      sum1: "Returning worker transitioning to full stack development providing problem solving, leadership, entrepreneurial, creative thinking and customer experience. A current boot camp certificate and a Bachelors IT degree prepared a skillset geared toward front end and back end development.",
+      future: "A continued effort to develope skills in all areas of web and application development including Web3 technologies",
+    },
     experience1: {
       company: "Roswell Medical Group",
       position: "Manager",
@@ -50,22 +52,18 @@ const resumeData = [
       company: "Tech Data",
       position: "New Accounts Rep/ Associate Program Manager",
       skills: "html, css, content management systems, Siebel CRM",
-      compentencies: "leadership, customer service, adaptable, communitcation ",
+      compentencies: "customer service, creative thinking, adaptable, communitcation ",
       startDate: "",
       endDate: "",
       length: "4 years",
       duty1:
         "Assist with the development of web marketing strategies in order to drive supplier and reseller relations.",
-      duty2: "Provide conference support",
+      duty2: "Provide event support",
       duty3:
         "Continually collaborates with internal peers, and/or suppliers to effectively define, develop and execute marketing strategies.",
     },
 
-    skills: {
-      current:
-        "HTML, CSS, Javascript, jQuery, Bootstrap, NodeJs, Express, SQL, MongoDB, multiple NPM packages, web authintication, React",
-      future: "A continued effort to develope skills in all areas of web and application development including Web3 technologies",
-    },
+    skills: "HTML, CSS, Javascript, jQuery, Bootstrap, NodeJs, Express, SQL, MongoDB, multiple NPM packages, web authintication, React",
     core: {
       comp1:
         "Experience with end-to-end release and deployment of web applications.",

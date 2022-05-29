@@ -6,8 +6,8 @@ export default function Portfolio() {
     <div className="container">
       <div class="jumbotron jumbotron-fluid">
         <div class="container"></div>
-        <h1>Portfolio:</h1>
-        <p>This is my Portfolio</p>
+        <h1 className="display-4">Portfolio:</h1>
+        <p>Download Resume</p>
         
       </div>
       <div className="card-body">

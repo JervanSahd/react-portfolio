@@ -30,7 +30,7 @@ const projects = [
   {
     title: "JATE Text Editor",
     picture: {
-      image: "https://github.com/JervanSahd/react-portfolio/blob/main/src/assets/texteditor.png",
+      image: "https://github.com/miringan/textEditor/raw/main/assets/screenshot.png",
       alt: "jate text editor",
     },
     discription:

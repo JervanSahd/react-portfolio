@@ -12,23 +12,7 @@ export default function Resume() {
                 <h1 class="display-4">Resume</h1>
                 <p class="lead"> {`${resumeData.summary.sum1}`}</p>
                 <p class="lead"> {`${resumeData.summary.future}`}</p>
-                {/*     
-    <p>
-                <img
-                  src={`${resumeData.contact.image} `}
-                  alt={`${resumeData.contact.imageAlt} `}
-                ></img>
-              </p>
-              <p> {`${resumeData.contact.location}`}</p>
-              <p> {`${resumeData.contact.email}`}</p>
-              <p>
-                {`${resumeData.contact.linkedin.icon}`}
-                {`${resumeData.contact.linkedin.link}`}
-              </p>
-              <p>
-                {`${resumeData.contact.github.icon}`}
-                {`${resumeData.contact.github.link}`}
-              </p> */}
+               
               </div>
             </div>
             <div className=" container">
@@ -41,7 +25,7 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-            <div className="container">
+            <div className="container"> 
               <div className="card-body">
                 <h4 className="card-title ">Experience</h4>
                 <div className="card-body ">
@@ -69,8 +53,8 @@ export default function Resume() {
                       {`${resumeData.experience1.skills}`}
                     </p>
                     <p className="card-text">
-                      <h6> Compentencies:</h6>
-                      {`${resumeData.experience1.compentencies}`}
+                      <h6> Competencies:</h6>
+                      {`${resumeData.experience1.competencies}`}
                     </p>
                   </div>
                 </div>
@@ -99,8 +83,8 @@ export default function Resume() {
                       {`${resumeData.experience2.skills}`}
                     </p>
                     <p className="card-text">
-                      <h6> Compentencies:</h6>
-                      {`${resumeData.experience2.compentencies}`}
+                      <h6> Competencies:</h6>
+                      {`${resumeData.experience2.competencies}`}
                     </p>
                   </div>
                 </div>
@@ -128,8 +112,8 @@ export default function Resume() {
                       <h6> Skills:</h6> {`${resumeData.experience3.skills}`}
                     </p>
                     <p className="card-text">
-                      <h6> Compentencies:</h6>
-                      {`${resumeData.experience3.compentencies}`}
+                      <h6> Competencies:</h6>
+                      {`${resumeData.experience3.competencies}`}
                     </p>
                   </div>
                 </div>
@@ -139,7 +123,7 @@ export default function Resume() {
             {/* <div className="card" style="width: 18rem;"> */}
             <div className="container">
               <div className="card-body">
-                <h4 className="card-title">Core Compentencies</h4>
+                <h4 className="card-title">Core Competencies</h4>
                 <div className="container">
                   <p className="card-text">{`${resumeData.core.comp1}`}</p>
                   <p className="card-text">{`${resumeData.core.comp2}`}</p>
@@ -158,6 +142,7 @@ export default function Resume() {
                 <p className="card-text">
                   <h6>{`${resumeData.education.degree.type}`}</h6>
                 </p>
+                <p>{`${resumeData.education.degree.description}`}</p>
                 <p className="card-text">
                   Studies included: {`${resumeData.education.degree.studies}`}
                 </p>
@@ -169,6 +154,7 @@ export default function Resume() {
                 <p>
                   <a href="#portfolio">Course Work</a>
                 </p>
+                <p>{`${resumeData.education.certs.description}`}</p>
                 <p className="card-text">
                   Studies included: {`${resumeData.education.certs.studies}`}
                 </p>

@@ -1,11 +1,8 @@
 import React from "react";
 import resumeData from "../../resumeData";
 
-export default function Resume() {
+export default function About() {
   return (
-    <div>
-      <div>
-        <div className="container">
           <div className="card-body container">
             {resumeData.map((resumeData) => (
               <div className="card-title">
@@ -49,8 +46,5 @@ export default function Resume() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-    </div>
   );
 }

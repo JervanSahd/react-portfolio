@@ -29,10 +29,13 @@ export default function PortfolioContainer() {
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       
-
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div class="row">
+  <div class="column"></div>
+  <div class="column"><NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       
-      {renderPage()}
+      {renderPage()}</div>
+</div>
+      
     </div>
   );
 }

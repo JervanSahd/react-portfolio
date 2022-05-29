@@ -1,7 +1,7 @@
 const resumeData = [
   {
     contact: {
-      image: "../assets/me.jpg",
+      image: "https://media-exp1.licdn.com/dms/image/C4E03AQEWuPbIbXFd6A/profile-displayphoto-shrink_800_800/0/1586958089050?e=1659571200&v=beta&t=nOeib-wLfdYRIQzO6iZo5VFVcjZJ9ziq6soSl2IwU2c",
       imageAlt: "Steve Snavely",
       location: "Marietta, Ga",
       email: "info@stevesnavely.com",

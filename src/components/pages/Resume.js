@@ -10,6 +10,7 @@ export default function Resume() {
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-4">Resume</h1>
+                <p><a href="../assets/SSnavelyResume.pdf">Download Resume</a></p>
                 <p class="lead"> {`${resumeData.summary.sum1}`}</p>
                 <p class="lead"> {`${resumeData.summary.future}`}</p>
                

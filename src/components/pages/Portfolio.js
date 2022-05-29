@@ -7,8 +7,6 @@ export default function Portfolio() {
       <div class="jumbotron jumbotron-fluid">
         <div class="container"></div>
         <h1 className="display-4">Portfolio:</h1>
-        <p>Download Resume</p>
-        
       </div>
       <div className="card-body">
         {projects.map((projects) => (
